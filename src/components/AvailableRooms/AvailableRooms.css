@@ -1,0 +1,42 @@
+.available-rooms {
+    margin-bottom: 3rem;
+  }
+  
+  .available-rooms h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #00ffcc;
+  }
+  
+  .rooms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .datetime-picker {
+    margin-bottom: 2rem;
+  }
+  
+  .datetime-picker label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #cccccc;
+  }
+  
+  .react-datetime-picker {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .react-datetime-picker__wrapper {
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 0.5rem;
+    background-color: #1a1a1a;
+    color: #ffffff;
+  }
+  
+  .react-datetime-picker__inputGroup__input {
+    color: #ffffff;
+  }

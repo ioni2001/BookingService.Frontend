@@ -1,0 +1,15 @@
+.my-bookings {
+    margin-bottom: 3rem;
+  }
+  
+  .my-bookings h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #00ffcc;
+  }
+  
+  .bookings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }

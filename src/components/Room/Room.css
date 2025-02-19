@@ -1,0 +1,59 @@
+.room-card {
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 1.5rem;
+    background-color: #2a2a2a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .room-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 255, 204, 0.3);
+  }
+  
+  .room-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+    color: #00ffcc;
+  }
+  
+  .room-card p {
+    margin: 0;
+    color: #cccccc;
+  }
+  
+  .create-booking-button {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #00ffcc;
+    color: #1a1a1a;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-booking-button:hover {
+    background-color: #00e6b8;
+  }
+
+  .availability {
+    margin-top: 1rem;
+  }
+  
+  .availability h4 {
+    margin-bottom: 0.5rem;
+    color: #00ffcc;
+  }
+  
+  .availability p {
+    margin: 0;
+    color: #cccccc;
+  }
